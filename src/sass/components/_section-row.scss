@@ -1,0 +1,54 @@
+@media(min-width: 1400px){
+    .container {
+        width: 1370px !important;
+    }
+}
+@media(min-width: 1600px){
+    .container {
+        width: 1570px !important;
+    }
+}
+@media(min-width: 1800px){
+    .container {
+        width: 1770px !important;
+    }
+}
+
+.section-row {
+//DIVIDI CADA PARTE DEL DISEÑO EN UNA SECCION NUEVA
+    min-height:200px;
+    font-family: $lato;//VARIABLE DEFINIDA EN CONFIG QUE DEFINE LA TIPOGRAFIA DE GOOGLE FONTS LATO
+
+    h2{
+        font-size:80px;
+        font-family:'Roboto';
+        font-weight: 100;
+        color:#59595B;
+        @media(max-width: 600px){
+            font-size:60px;
+            text-align: center !important;
+        }
+    }
+
+    h3{
+        font-family:'Roboto';
+    }
+
+    p{
+        font-size:25px;
+        font-family:'Roboto';
+        font-weight: 300;
+        color:#59595B;
+    }
+
+    a.btn{
+        background:#003263;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size:20px;
+        font-family:'Roboto';
+        margin:0;
+        border-radius:8px;
+    }
+
+}
